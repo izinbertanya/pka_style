@@ -1,0 +1,143 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+/* Utility */
+.btn-kuning {
+	border-radius: 40px;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.container-grey {
+	background-color: #EFEFEF;
+}
+.section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.title-section {
+	color: #891A1A;
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+.title-section span {
+	font-weight: bold;
+	color: #891A1A;
+}
+.text-red {
+	color: #891A1A;
+}
+hr {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar */
+.navbar {
+	padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand {
+	margin-right: 30px !important;
+}
+.nav-link {
+	text-transform: uppercase;
+	margin-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+.navbar-nav > .active {
+	background-color: #FFA3A3;
+}
+.nav-link:hover::after {
+	content: '';
+	display: block;
+	border-bottom: 3px solid #FFA3A3;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+.big-button {
+	text-transform: uppercase;
+	padding-top: 15px;
+    padding-bottom: 15px;
+	border-radius: 0;
+	font-weight: bold;
+}
+
+/* Header Image */
+.jumbotron {
+	background-image: linear-gradient(90deg,rgba(25,10,8,.64),rgba(124,35,28,.73)),url(https://source.unsplash.com/AEaTUnvneik/1920x1080);
+	background-size: cover;
+	color: #FFF;
+	height: 640px;
+	margin-top: -39px;
+	margin-bottom: 0;
+}
+.jumbotron .display-4 {
+	margin-top: 80px;
+	font-weight: bold;
+}
+.jumbotron .lead {
+	max-width: 500px;
+}
+.jumbotron .btn-kuning {
+	margin-top: 30px;
+}
+
+/* Video Profile */
+.video-profile {
+	background-image: linear-gradient(90deg,rgba(25,10,8,.64),rgba(0,0,0,.73)),url(https://source.unsplash.com/j9jZSqfH5YI/640x426);
+	background-size: cover;
+	border-radius: 10px;
+	height: 200px;
+	margin-top: -150px;
+	color: #FFF;
+}
+.video-profile .caption {
+	margin-top: 150px;
+}
+
+/* Tentang Kami */
+.tentang-kami h3 {
+	font-weight: bold;
+	color: #707070;
+}
+
+/* Nilai-nilai */
+
+
+/* Footer */
+.container-footer {
+	background-color: #333333;
+	color: #FFF;
+}
+.container-footer hr {
+	border-top: 1px solid #FFF;
+}
+.container-footer h4 {
+	font-weight: bold;
+}
+/* Mobile */
+@media (max-width: 992px) {
+	.navbar-nav, .navbar-toggler {
+		display: none;
+	}
+	.navbar-brand {
+		margin-right: auto !important;
+	}
+	.video-profile {
+		display: none;
+	}
+	.tentang-kami .btn-kuning {
+		margin-bottom: 20px;
+	}
+	.tentang-kami-desc {
+		display: none;
+	}
+}
