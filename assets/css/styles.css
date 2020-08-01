@@ -128,6 +128,12 @@ hr {
 	margin-top: 150px;
 }
 
+/* Tentang & Nilai-nilai */
+.tentang-kami, .nilai-kami, .nilai-kami img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 /* Kami Ada Untukmu */
 .container-untukmu {
 	background-image: linear-gradient(90deg,rgba(25,10,8,.64),rgba(0,0,0,.73)),url(https://source.unsplash.com/Zyx1bK9mqmA/480x270);
@@ -154,7 +160,10 @@ hr {
 .program {
 	padding-top: 100px;
 }
-.program .title-section {
+.program-desc {
+	padding-top: 30px;
+}
+.program-desc .title-section {
 	max-width: 400px;
 }
 .program-1 {
@@ -172,7 +181,7 @@ hr {
 	color: #FFF;
 }
 .program-more {
-	height: 390px;
+	padding-top: 30px;
 }
 
 /* Divider */
@@ -194,6 +203,10 @@ hr {
 .container-footer h4 {
 	font-weight: bold;
 }
+
+.float {
+	display: none;
+}
 /* Mobile */
 @media (max-width: 992px) {
 	.navbar-nav, .navbar-toggler {
@@ -210,5 +223,30 @@ hr {
 	}
 	.tentang-kami-desc {
 		display: none;
+	}
+	.program-desc {
+		padding-top: 0;
+	}
+
+	.jumbotron .btn-kuning {
+		display: none;
+	}
+	.float{
+		z-index: 999;
+		display: block;
+		position:fixed;
+		padding-top: 3vh;
+		width: 100px;
+		height: 100px;
+		bottom: 40px;
+		right: 0px;
+		background-color: #FFCA0D;
+		color: #000;
+		font-weight: bold;
+		text-align: center;
+		box-shadow: 2px 2px 3px #999;
+	}
+	.my-float{
+		margin-top:22px;
 	}
 }
