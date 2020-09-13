@@ -2,6 +2,9 @@ body {
 	font-family: 'Quicksand', sans-serif;
 }
 /* Utility */
+img {
+	max-width: 100%;
+}
 .btn-kuning {
 	border-radius: 40px;
 	padding: 10px 20px;
@@ -58,6 +61,60 @@ hr {
 .card-img-top {
 	padding: 10px;
 }
+.pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    border-radius: .25rem;
+    padding: 0;
+    margin: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
+}
+.pagination-item {
+    margin: 0 4px;
+    border: 2px solid #c3c3c3;
+    border-radius: 50px;
+    height: 40px;
+    min-width: 40px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+.pagination-item i,
+.pagination-item span {
+    display: inline-block;
+    color: #333;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700
+}
+.pagination-item-active,
+.pagination-item:hover {
+    background: #efc940;
+    border: 2px solid #efc940
+}
+
+.pagination-item-active {
+    pointer-events: none
+}
+
+.pagination-item-disabled {
+    height: auto;
+    min-width: auto;
+    border: none;
+    pointer-events: none;
+    padding-bottom: 5px;
+    margin: 0 11px
+}
+
 
 /* Navbar */
 .navbar {
@@ -96,13 +153,15 @@ hr {
 
 /* Header Image */
 .jumbotron {
-	background-image: linear-gradient(90deg,rgba(25,10,8,.64),rgba(124,35,28,.73)),url(https://source.unsplash.com/AEaTUnvneik/1920x1080);
 	background-size: cover;
 	background-position: center center;
 	color: #FFF;
-	height: 640px;
 	margin-top: -39px;
 	margin-bottom: 0;
+}
+.home-header {
+	background-image: linear-gradient(90deg,rgba(25,10,8,.64),rgba(124,35,28,.73)),url(https://source.unsplash.com/AEaTUnvneik/1920x1080);
+	height: 640px;
 }
 .jumbotron .display-4 {
 	margin-top: 80px;
@@ -184,12 +243,19 @@ hr {
 	padding-top: 30px;
 }
 
-/* Divider */
+/* Divider Home*/
 .container-divider {
 	background-image: url(../img/team.png);
 	background-size: cover;
 	background-position: center center;
 	height: 560px;
+}
+/* Divider Bottom*/
+.container-divider-bottom {
+	background-image: url(../img/divider.png);
+	background-size: cover;
+	background-position: center center;
+	height: 170px;
 }
 
 /* Footer */
@@ -227,10 +293,19 @@ hr {
 	.program-desc {
 		padding-top: 0;
 	}
+	.card {
+		margin-right: 0;
+		margin-bottom: 5px;
+		margin-left: 0;
+	}
 
 	.jumbotron .btn-kuning {
 		display: none;
 	}
+	.action-btn-section .btn-kuning {
+		font-size: 16px;
+	}
+	
 	.float{
 		z-index: 999;
 		display: block;

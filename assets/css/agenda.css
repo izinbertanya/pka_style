@@ -1,0 +1,35 @@
+.agenda {
+	margin-top: 70px;
+}
+.agenda-tanggal {
+	background-color: #FFCA0D;
+	color: #891A1A;
+	border-radius: 20px;
+	max-width: 175px;
+	height: 200px;
+}
+.agenda-tanggal h1 {
+	font-size: 100px;
+	font-weight: bold;
+	line-height: 1;
+	padding-top: 24px;
+}
+.agenda-tanggal span {
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 0.5;
+}
+.agenda-detail {
+	background-color: #EFEFEF;
+	margin-left: 20px;
+	padding: 20px 0 20px 0;
+	border-radius: 10px;
+}
+.agenda-detail img {
+	max-width: 185px;
+	padding: 0 5px 0 5px;
+}
+.agenda-detail h2 {
+	color: #891A1A;
+	font-weight: bold;
+}

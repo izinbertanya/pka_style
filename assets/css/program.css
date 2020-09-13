@@ -1,0 +1,21 @@
+.header-title {
+	background-image: linear-gradient(90deg,rgba(25,10,8,.64),rgba(124,35,28,.73)),url(https://source.unsplash.com/AEaTUnvneik/1920x1080);
+	height: 340px;
+}
+.btn-cluster {
+	margin-top: -50px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.btn-cluster-purple {
+	color: #FFF;
+	background-color: #9A6BC9;
+	border-color: #9A6BC9;
+}
+.title-program {
+	color: #891A1A;
+	font-size: 36px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}

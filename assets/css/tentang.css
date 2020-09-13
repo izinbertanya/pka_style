@@ -1,0 +1,39 @@
+.header-title {
+	background-image: linear-gradient(90deg,rgba(25,10,8,.64),rgba(124,35,28,.73)),url(https://source.unsplash.com/AEaTUnvneik/1920x1080);
+	height: 340px;
+}
+.video-profile-tentang {
+	background-image: linear-gradient(90deg,rgba(25,10,8,.64),rgba(0,0,0,.73)),url(https://source.unsplash.com/j9jZSqfH5YI/640x426);
+	background-size: cover;
+	border-radius: 10px;
+	height: 500px;
+	color: #FFF;
+}
+.video-profile-tentang .caption {
+	margin-top: 250px;
+}
+.statistik h1 {
+	font-size: 15vh;
+}
+.figure {
+	margin: 20px 15px;
+}
+/* Mobile */
+@media (max-width: 992px) {
+	.img-section {
+		max-width: 50%;
+	}
+	.section {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.video-profile-tentang {
+		height: 50vh;
+	}
+	.video-profile-tentang .caption {
+		margin-top: 25vh;
+	}
+	.statistik h1 {
+		font-size: 10vh;
+	}
+}
