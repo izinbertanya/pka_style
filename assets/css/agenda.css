@@ -33,3 +33,14 @@
 	color: #891A1A;
 	font-weight: bold;
 }
+.agenda-detail i {
+	font-weight: bold;
+	font-size: 18px;
+	width: 20px;
+	margin-right: 10px;
+	text-align: center;
+}
+.agenda-detail span {
+	font-weight: bold;
+	font-size: 18px;
+}
